@@ -71,7 +71,7 @@ section p {
 
 /* Site footer */
 footer {
- 
+  transition: all 0.9s ease;
   color: var(--paper);
 }
 
