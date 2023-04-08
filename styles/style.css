@@ -161,9 +161,16 @@ footer img {
   .header__name {
     flex-direction: column;
   }
-
+  
   .header__name {
     align-items: unset;
+  }
+  span {
+    display: none;
+  }
+
+  .header__name h2 {
+    margin-bottom: 0.5rem;
   }
 
   .footer__wrap {
