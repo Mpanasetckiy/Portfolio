@@ -6,7 +6,7 @@
   --font: 'Quicksand', sans-serif;
   --heading-font: 'Bebas Neue', cursive;
   --gap: 20px;
-  --container: clamp(280px, calc(80vw - calc(var(--gap) * 2)), 1180px);
+  --width-block:clamp(300px, 75%, 1024px);
 }
 
 /* General Styles */
@@ -20,7 +20,7 @@ body {
 body {
   margin: 0 auto;
   min-height: 100vh;
-  max-width: var(--container);
+  max-width: var(--width-block);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
