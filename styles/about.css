@@ -30,3 +30,7 @@ section img:hover {
 .express {
   background-color: var(--paper);
 }
+
+.stack {
+  max-width: 70%;
+}
